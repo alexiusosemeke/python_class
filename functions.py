@@ -1,5 +1,5 @@
 # FUNCTIONS IN PYTHON
-
+import math
 # Reusable block of code that performs a specific task
 
 # Why we use functions:
@@ -24,12 +24,13 @@ def greet():
 
 # MINI PROJECT
 # PRINT NUMBER FUNCTION
+# CODE TO PRINT FROM LOWEST TO HIGHEST
 
 def printNumber(number):
     for i in range(1, number + 1):
         print(number - i + 1)
 
-printNumber(10)
+# printNumber(10)
 
 # Function that checks if a number is odd or even
 
@@ -57,3 +58,22 @@ printNumber(10)
 #
 # result = calculateSum(10)
 # print(result)
+
+
+# WRITE A PROGRAM TO CALCULATE THE FACTORIAL OF A NUMBER
+
+# HINT: 5 FACTORIAL = 5 * 4 * 3 * 2 * 1
+
+# def factorialNumber(number):
+#     return math.factorial(number)
+
+# print(factorialNumber(2))
+
+def factorialNumber(number):
+    result = 1
+    for i in range(1, number + 1):
+        result *= i
+    return result
+
+
+print(factorialNumber(5))
