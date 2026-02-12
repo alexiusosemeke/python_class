@@ -61,3 +61,15 @@ for method in payments:
 # Each payment type decide how it's own must be done.
 # All of them will inherit the pay method, then decide how they want it to work.
 # The system works without knowing the internal implements
+
+
+# The project is to simulate a simple bank system where:
+# 1: Users can create account
+# 2: Deposit Money
+# 3: Withdraw Money
+# 4: Transfer Money
+# 5: View Balance
+# 6: User should be able to save data to file
+
+
+# To be submitted 10am on Tuesday 17th of February
