@@ -55,7 +55,6 @@ payments = [
 for method in payments:
     method.pay(1000, 'Alexius')
 
-
 # The parent class defines what must be done.
 # It defines the blueprint.
 # Each payment type decide how it's own must be done.
